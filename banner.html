@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Advertisement</title>
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+
+<style>
+* {
+  box-sizing:border-box;
+}
+
+html, body {
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background:transparent;
+}
+
+.mtg-ad {
+  width:100%;
+  height:170px;
+  box-sizing:border-box;
+  margin:0 auto;
+  padding:20px 18px 12px;
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  direction:rtl;
+  overflow:hidden;
+  border:1px solid #d6b85c;
+  border-radius:7px;
+  background:
+    radial-gradient(ellipse at 15% 50%,#54218a 0%,transparent 55%),
+    linear-gradient(110deg,#10091f,#211039 55%,#10091f);
+  color:#fff;
+  font-family:Tahoma,Arial,sans-serif;
+  isolation:isolate;
+}
+
+.mtg-ad::before {
+  content:"";
+  position:absolute;
+  width:220px;
+  height:220px;
+  left:-75px;
+  top:-100px;
+  border:1px solid rgba(220,180,65,.22);
+  border-radius:50%;
+  box-shadow:
+    0 0 0 20px rgba(220,180,65,.035),
+    0 0 0 40px rgba(220,180,65,.025);
+  z-index:-1;
+}
+
+.mtg-ad-label {
+  position:absolute;
+  top:0;
+  left:0;
+  padding:4px 10px;
+  background:rgba(0,0,0,.35);
+  border-bottom:1px solid rgba(214,184,92,.4);
+  border-radius:0 0 6px 0;
+  color:#d8c9a2;
+  font-family:Arial,sans-serif;
+  font-size:9px;
+  letter-spacing:.4px;
+  direction:ltr;
+}
+
+.mtg-content {
+  flex:1;
+  min-width:0;
+}
+
+.mtg-brand {
+  color:#e5c45c;
+  font-size:13px;
+  font-weight:900;
+  margin-bottom:5px;
+}
+
+.mtg-title {
+  font-size:clamp(16px,2.6vw,23px);
+  font-weight:900;
+  line-height:1.5;
+  color:#fff;
+}
+
+.mtg-title span {
+  color:#f2ce68;
+}
+
+.mtg-description {
+  color:#e5d9f5;
+  font-size:12px;
+  margin-top:4px;
+}
+
+.mtg-features {
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px 15px;
+  margin-top:8px;
+}
+
+.mtg-feature {
+  color:#e5d9f5;
+  font-size:11px;
+  white-space:nowrap;
+}
+
+.mtg-feature b {
+  color:#eac85c;
+  margin-left:4px;
+}
+
+.mtg-action {
+  flex-shrink:0;
+  margin-right:15px;
+  text-align:center;
+}
+
+.mtg-button {
+  display:inline-block;
+  padding:12px 19px;
+  border-radius:6px;
+  background:linear-gradient(135deg,#ffe58a,#c69b32);
+  color:#21132a!important;
+  font-size:14px;
+  font-weight:900;
+  text-decoration:none!important;
+  box-shadow:0 4px 15px rgba(230,185,65,.25);
+  transition:.25s ease;
+}
+
+.mtg-button:hover {
+  transform:translateY(-2px);
+  box-shadow:0 6px 22px rgba(230,185,65,.45);
+}
+
+.mtg-caption {
+  color:#c5b5d8;
+  font-size:10px;
+  margin-top:7px;
+}
+
+@media(max-width:480px) {
+  .mtg-ad {
+    padding:22px 10px 10px;
+  }
+
+  .mtg-title {
+    font-size:15px;
+  }
+
+  .mtg-brand {
+    font-size:11px;
+  }
+
+  .mtg-description {
+    font-size:10px;
+  }
+
+  .mtg-features {
+    gap:5px 8px;
+  }
+
+  .mtg-feature {
+    font-size:9px;
+  }
+
+  .mtg-action {
+    margin-right:7px;
+  }
+
+  .mtg-button {
+    padding:10px 11px;
+    font-size:11px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="mtg-ad">
+
+  <div class="mtg-ad-label">Ads by Eshha</div>
+
+  <div class="mtg-content">
+
+    <div class="mtg-brand">
+      MONETAG | شبكة الإعلانات الرقمية
+    </div>
+
+    <div class="mtg-title">
+      موقعك يستحق أرباحاً أفضل مع
+      <span>Monetag</span>
+    </div>
+
+    <div class="mtg-description">
+      حوّل زيارات موقعك أو مدونتك إلى فرصة حقيقية لتحقيق الأرباح.
+    </div>
+
+    <div class="mtg-features">
+      <div class="mtg-feature"><b>✓</b> معدلات CPM تنافسية</div>
+      <div class="mtg-feature"><b>✓</b> بيئة إعلانية آمنة</div>
+      <div class="mtg-feature"><b>✓</b> أشكال إعلانية متعددة</div>
+      <div class="mtg-feature"><b>✓</b> قبول فورى لموقعك</div>
+      <div class="mtg-feature"><b>✓</b> طرق الدفع بايبال وبايونير</div>
+    </div>
+
+  </div>
+
+  <div class="mtg-action">
+
+    <a class="mtg-button"
+       href="https://monetag.com/?ref_id=nIvH"
+       target="_blank"
+       rel="nofollow sponsored noopener noreferrer">
+       انضم الآن »
+    </a>
+
+    <div class="mtg-caption">
+      ابدأ رحلتك نحو الأرباح
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
